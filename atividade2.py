@@ -1,10 +1,9 @@
-# soma de 2 fluxograma
-# 4 funcções basicas
+# float() int() str() bool()
 
-n1 = float (input("Digite o primeiro numero"))
-n2 = float (input("Digite o segundo numero"))
+numero_inteiro = 10
+print(type(numero_inteiro))
+print(type(str(numero_inteiro)))
+print(float(numero_inteiro))
+print(type(bool(numero_inteiro)))
 
-print ("Resultado da soma: ", n1 + n2)
-print ("Resultado da subtração: ", n1 - n2)
-print ("Resultado da Multiplicação: ", n1 * n2)
-print ("Resultado da Divisão: ", n1 / n2)
+
